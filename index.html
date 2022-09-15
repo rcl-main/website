@@ -20,6 +20,25 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1470572566296357');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1470572566296357&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body id="page-top">
@@ -58,8 +77,8 @@
             </div>
         </div>
     </header>
-        <!-- Events-->
-        <section id="events">
+    <!-- Events-->
+    <section id="events">
         <div class="card shadow-lg rounded m-5 bg-light">
             <div class="card-header bg-warning text-center">
                 <h3>Upcoming Free Digital Transformation Workshops</h4>
@@ -73,7 +92,8 @@
                         <h4>Attend our virtual workshops in Microsoft Teams</h4>
                         <p class="p-1">
                             Learn how to digitally transform your business with the cloud.
-                            Topics include : an introduction to the Microsoft Azure Cloud, Digital Identity, Online Payments
+                            Topics include : an introduction to the Microsoft Azure Cloud, Digital Identity, Online
+                            Payments
                             for Trinidad and Tobago Businesses, Micro Services Architecture, Cloud Computing Costs and
                             Planning your Cloud Solutions.
                             See live demonstrations of sample cloud applications for a business. Understand the building
