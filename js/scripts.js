@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 function updateTimer() {
-    future = Date.parse("oct 15, 2022 9:00:00");
+    future = Date.parse("nov 12, 2022 9:00:00");
     now = new Date();
     diff = future - now;
 
