@@ -28,21 +28,21 @@
     ],
     "verificationMethod": [
         {
-            "id": "#2a9868994106451590227095bb779cecvcSigningKey-74aa2",
+            "id": "#7051ae9c496f4b70b081abb9edf404dbvcSigningKey-11a93",
             "controller": "did:web:rclapp.com",
             "type": "EcdsaSecp256k1VerificationKey2019",
             "publicKeyJwk": {
                 "crv": "secp256k1",
                 "kty": "EC",
-                "x": "WgXL_7AvyN9SMSgXYjmN3Gk3vVpvU6X6QUYeDgN-zZc",
-                "y": "sHCHfJyDoQFbsHpX6hSfw_xlu6LdqKIzx9Gnuut95e0"
+                "x": "AnJQ2J9Q4pp7CbkGJqSCc6YFIFWLw0pUUUOgmGfnczk",
+                "y": "SpsEo97Va8iEvaqwCmz4fTkZS0JXAHteqbzwS40pYZ4"
             }
         }
     ],
     "authentication": [
-        "#2a9868994106451590227095bb779cecvcSigningKey-74aa2"
+        "#7051ae9c496f4b70b081abb9edf404dbvcSigningKey-11a93"
     ],
     "assertionMethod": [
-        "#2a9868994106451590227095bb779cecvcSigningKey-74aa2"
+        "#7051ae9c496f4b70b081abb9edf404dbvcSigningKey-11a93"
     ]
 }
